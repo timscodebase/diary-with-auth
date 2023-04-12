@@ -1,0 +1,37 @@
+{
+  "name": "sveltekit-blog-starter",
+  "version": "1.6.1",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "prettier --ignore-path .gitignore --check -- plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^1.0.6",
+    "@sveltejs/kit": "^1.15.2",
+    "@types/bcrypt": "^5.0.0",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "mdsvex": "^0.10.6",
+    "prettier": "^2.8.7",
+    "prettier-plugin-svelte": "^2.10.0",
+    "rehype-autolink-headings": "^6.1.1",
+    "rehype-slug": "^5.1.0",
+    "sass": "^1.61.0",
+    "svelte": "^3.58.0",
+    "svelte-preprocess": "^5.0.3",
+    "vite": "^4.2.1"
+  },
+  "type": "module",
+  "dependencies": {
+    "@lucia-auth/adapter-prisma": "^1.0.0",
+    "@prisma/client": "^4.12.0",
+    "bcrypt": "^5.1.0",
+    "lucia-auth": "^1.0.0",
+    "prisma": "^4.12.0",
+    "typescript": "^5.0.4"
+  }
+}
